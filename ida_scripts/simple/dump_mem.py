@@ -8,6 +8,8 @@ def memdump(ea, size, file):
         print("Memdump Success!")
 
 # ea  = ida_kernwin.get_screen_ea()
+#begin_addr_str = ida_kernwin.ask_str("Default value", 0, "Please enter string")
+#begin_addr = int(begin_addr_str,16)
 
 beginEA = 0x0
 endEA = 0x10
